@@ -1,12 +1,14 @@
 body{
-    background-color: cornflowerblue;
+    background-color: lightgray;
+    width: 60%;
+    margin: auto;
+
 }
 #navigation{
     display: flex;
     flex-direction: row;
-    
    background-color:white;
-
+   width:100%;
 }
 
 .headernav{
@@ -37,7 +39,7 @@ padding-left: 20px;
     margin-right: 15px;
     width: 200%;
     padding-top: 15px;
-    padding-left: 400px;
+    padding-left: 250px;
 }
 #searchbarbtn{
     height: 10px;
@@ -62,7 +64,6 @@ iframe {
     padding: 40px;
 }
 #sideBar{
-    background-color: blanchedalmond;
     float: right;
     display: flex;
     flex-direction: column;
@@ -78,4 +79,18 @@ iframe {
 .column{
     display: flex;
     flex-direction: column;
+    background-color:white;
+    padding:10px;
+    margin-top: 40px;
+
+}
+#theVideo{
+}
+
+
+#board{
+background-color: white;
+width:90%;
+padding:5px;
+margin:4px;
 }
