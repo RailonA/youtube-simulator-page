@@ -76,12 +76,8 @@ iframe {
     width: 900px;
     height: 500px;
     padding: 20px 0px 0px 40px;
-
-}
-#theVideo{
-    display: flex;
-    flex-direction: column;
-    flex-shrink:2;
+    display:flex;
+    justify-content:space-around;
     align-items: center;
 
 }
