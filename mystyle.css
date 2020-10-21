@@ -85,8 +85,8 @@ iframe {
 #infoplacement{
     display: flex;
     flex-direction: row;
-margin:0px;
-justify-content:space-between;
+    margin:0px;
+    justify-content:space-between;
 
 }
 #infodiv{
@@ -144,8 +144,8 @@ width: 900px;
     background-color: white;
     margin-top:20px;
     display: flex;
-flex-direction: column; 
-height:auto;   
+    flex-direction: column; 
+    height:auto;   
 }    
     
 #board2{
@@ -189,7 +189,7 @@ padding:20px;
     flex-direction: column;
     background-color:white;
     margin-left:20px;
-margin-top:-220px;}
+    margin-top:-220px;}
 
 aside img{
     display:flex;
@@ -211,14 +211,42 @@ aside img{
     .button{
         height:50px;
         display:flex;
-       flex-direction: row;
+        flex-direction: row;
+        height: 30px;
+        width: 30px;
     }
-    .buttonbtn{
+    .buttonbtn{        
+        display:flex;        
+        flex-direction: row;        
+        height:30px;        
+        width:75px;        
+        background-color: Transparent;        
+        border: none;        
+        cursor:pointer;        
+        overflow: hidden;        
+        outline:none;    }
+    .btn{
         display:flex;
         flex-direction: row;
+        justify-content: space-between;
     }
-    .btn{
-            display:flex;
-            flex-direction: row;
-        }
+    #btn1{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    #btn2{
+        display: flex;
+        flex-direction: row;
+
+    }
+    #showmore{
+        display: block;
+        background-color: transparent;
+        border-color: white;
+        width: 100%;
+        border-radius: 100%;
+        align-content: stretch;
+        cursor: pointer;
+    
     }
