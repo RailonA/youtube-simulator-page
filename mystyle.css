@@ -82,50 +82,85 @@ iframe {
 
 }
 /* THE INFORMATION UNDER THE YOUTUBE VIDEO  */
+#infoplacement{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#lionlogo{
+    height:70px;
+    width:70px;
+    display:flex;  
+    align-self: flex-start;
+}
+.mainalign{
+    display:flex;
+    flex-direction: column;
+}
+.subalign{
+display:flex;
+flex-direction: row;
+height:40px;
+}
+.subbtnalign{
+    display:flex;
+flex-direction: row;
+height:60%;
+background-color: red;
+}
+
+.subimg{
+    height:100%;
+    width:30px; 
+    display:flex;  
+}
+
+#numviews{
+display: flex;
+align-self: flex-end;
+}
+
 #board{
 display: flex;
 flex-direction: column;
 justify-content: center;
-background-color: white;
-margin: 10px;
+margin-left: 40px;
 width: 900px;
-
 }
-#lionlogo{
-    height:60px;
-    width:60px;
+
+#board1{
+    background-color: white;
+    margin-top:20px;
+    display: flex;
+flex-direction: column;    }    
     
-}
-#playimg{
-    height:60px;
-    width:60px; 
-background-color: red;
-}
-#userinfo{
-    display: flex;
-    flex-direction: column;
-}
-#userinfoplacement{
-    display: flex;
-    padding:20px;
-    flex-direction: row;
-    color: white;
-    background-color: red;
-    width:200px;
+#board2{
+background-color: white;
+margin-top:20px;
+padding:20px;
 }
 
-#userlayout{
-    display: flex;
-    flex-direction: row;
-}
+
+#board3{
+    background-color: white;
+    margin-top:20px;
+    height:100px;
+    }
+    
+    
+
+
 /* STARTS THE 2ND COLUMN ON THE RIGHT HAND SIDE OF THE VIDEO */
+
 #sideBar{
     float: right;
     display: flex;
     flex-direction: row;
     flex-shrink:2;
     width : 500px;
-    padding: 20px;
+    padding: 10px;
+    height:200px;
     
 }
 #image2{
@@ -137,16 +172,20 @@ background-color: red;
     display: flex;
     flex-direction: column;
     background-color:white;
-    margin:20px;
-}
+    margin-left:20px;
+margin-top:-220px;}
 
 aside img{
     display:flex;
-    flex-shrink:3;
 }
 #sideBartext{
     display: flex;
     flex-direction: column;
-    flex-shrink:1;
-    align-items:flex-start;
+    margin-left: 10px;
     }
+
+
+    h1 {
+        margin-left: 20px;;
+    }
+    
