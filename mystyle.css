@@ -1,20 +1,18 @@
 body{
     background-color: lightgray;
-    min-width:80%;
     
 
 }
 /* HEADER INFORMTAION ONTOP OF PAGE */
 #navigation{
-    width:100%;
     top:0px;
     min-height: 20px;;
     display:flex;
-    flex-direction: row;;
+    flex-direction: row;
     justify-content:space-around;
     align-items: center;
    background-color:white;
-
+justify-content: space-between;
 }
 
 .headernav{
@@ -89,14 +87,13 @@ margin:0px;
 justify-content:space-between;
 
 }
+
 #infodiv{
     display: flex;
     flex-direction: row;
     margin:0px;
 }
-  div #liondiv{
-    margin:0px;
-}
+
 #lionlogo{
     height:70px;
     width:70px;
@@ -109,35 +106,70 @@ justify-content:space-between;
     flex-direction: column;
     margin:0px;
 }
+.mainalign h5{
+    margin:0px;
+    padding-top:10px;
+
+}
+
 .subalign{
 display:flex;
 flex-direction: row;
 height:40px;
+margin:0px;
+padding-top:10px;
 }
+#subnum{
+height:22px;
+margin:0px;
+border: solid;
+border-width:1px ;
+border-color: lightslategray;
+}
+#subnum p{
+    font-size: 15px;
+    padding:3px;
+}
+
+.subalign p{
+    margin:0px;
+}
+
 .subbtnalign{
     display:flex;
 flex-direction: row;
 height:60%;
 background-color: red;
 color: white;
+margin:0px;
+}
+.subbtnalign p {
+    padding-left: 5px;
+    padding-top: 2px;
+
+}
+
+.subalign p{
+    margin:0px;
 }
 
 .subimg{
     height:100%;
     width:30px; 
-    display:flex;  
-}
- #numviews h2{
-    margin:0px;
-    padding:0px;
+    display:flex; 
+    margin:0px; 
 }
 
 #numviews{
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
-    padding:20px;
+    margin-bottom:0px;
+
 }
+ #num1{
+    margin-bottom:0px;
+    }
+    
 
 #blueline{
     width:180px;
@@ -158,8 +190,12 @@ width: 900px;
     margin-top:20px;
     display: flex;
 flex-direction: column; 
-height:auto;   
+height:auto;
 }    
+#board1 h1{
+margin:0px;
+padding:20px;
+}
     
 #board2{
 background-color: white;
@@ -175,7 +211,23 @@ padding:20px;
     }
     
     
+    #showmorebtn{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        height:30px;
+        width:800px;
 
+    }
+
+    #showmorebtn button{
+        width:750px;
+        background-color: Transparent;
+        border: none;
+        cursor:pointer;
+        overflow: hidden;
+        outline:none;
+    }
 
 /* STARTS THE 2ND COLUMN ON THE RIGHT HAND SIDE OF THE VIDEO */
 
@@ -199,29 +251,34 @@ padding:20px;
     flex-direction: column;
     background-color:white;
     margin-left:20px;
-margin-top:-220px;}
-
-aside img{
-    display:flex;
+    margin-top:-420px;
 }
+
+
 #sideBartext{
     display: flex;
     flex-direction: column;
     margin-left: 10px;
-    }
+    margin-top: 10px;
 
+    }
+   
     #sideBartext h4, p{
         margin:0px;
         
     }
 
     #sideBartext  p{
-        padding:5px;
+        margin:5px;
     }
+
+
     h1 {
         margin-left: 20px;
     }
-    
+    #pmargin{
+        margin-top: 5px;
+    }
 
     .button{
         height:50%;
@@ -243,7 +300,7 @@ aside img{
             display:flex;
             flex-direction: row;
             justify-content:space-between;
-
+            padding:5px;
         }
     .btn1{
         display:flex;
@@ -253,6 +310,4 @@ aside img{
         display:flex;
         flex-direction: row;
     }
-    hr{
-        margin-top:10 px;
-    }
+  
