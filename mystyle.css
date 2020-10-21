@@ -1,66 +1,118 @@
-body{
-    background-color: lightgray;
-    
-
-}
+html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #f1f1f1;
+  }
+  
+  button:hover,
+  a:hover,
+  i:hover {
+    cursor: pointer;
+  }
+  
+  header {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    background-color: white;
+    box-shadow: 1px 0 1px #ddd;
+  }
+  
+  nav {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
 /* HEADER INFORMTAION ONTOP OF PAGE */
-#navigation{
-    top:0px;
-    min-height: 20px;;
-    display:flex;
-    flex-direction: row;
-    justify-content:space-around;
+/* First div  */
+.logo {
+    margin-left: 10px;
     align-items: center;
-   background-color:white;
-justify-content: space-between;
-}
+    display: flex;
+    width: 15%;
+    height: 50px;
+  }
+  
+  .logo i {
+    font-size: 20px;
+    color: #7f7f7f;
+  }
+  
+  .logo img {
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+  }
+  
+  /* second div */
+  .search-bar {
+    display: flex;
+    width: 60%;
+    align-items: center;
+  }
+  #main-search-bar {
+    width: 70%;
+    height: 35px;
+    border: solid 0.5px #ccc;
+    outline: none;
+    font-size: 15px;
+    color: #ccc;
+    /* margin-left: -60px; */
+  }
+  
+  .search-bar button {
+    width: 60px;
+    height: 35px;
+    border: solid 0.5px #ccc;
+    border-left-style: none;
+    outline: none;
+  }
+  
+  .search-bar button .fas {
+    color: #333;
+  }
+  
+  /* Third  div */
+  
+  .icons {
+    display: flex;
+    width: 12%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .icons .fas {
+    color: #7f7f7f;
+    font-size: 20px;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #ddd;
+  }
+  
+  .video-section {
+    padding-right: 10px;
+    width: 1280px;
+  }
 
 .headernav{
  margin-left: auto;
  margin-right: auto;
 }
 
-#menubars{
-height:15px;
-width: 10px;
-padding-top: 8px;
-padding-left:25px;
 
-}
-
-#logo{
-    height:35px;
-    width: 80px; 
-    padding-top: 12px;
-    padding-left: 20px;
-
-}
-
-#searchbar{
-    width: 200%; 
-    height:25px;
-    display: flex;
-    flex-direction: row;
-    width: 200%;
-    padding-left: 250px;
-}
-#searchbarbtn{
-    height: 10px;
-    width: 15px;   
- 
-}
-#uploadlogo{
-    height: 30px;
-    width: 30px; 
-    padding-right: 30px;
-    padding-top: 12px;
-}
-#signinbtn{
-    height: 35px;
-    width: 35px; 
-    padding-top: 15px; 
-    margin-right: 9%;
-}
 /* BREAKS THE BODY INTO TWO COLUMNS */
 
 .body-column{

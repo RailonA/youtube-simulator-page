@@ -2,31 +2,37 @@
 <html lang="en">
 
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
   <link rel="stylesheet" href="mystyle.css">
   <title>Document</title>
-
 </head>
 
 <body>
-  <section id="navigation">
-    <div class="headernav"><img id="menubars" src="./img/menu-icon.png"></div>
-    <div class="headernav"><img id="logo" src="./img/youtubelogo.png"></div>
-    <div class="headernav" id="searchbar">
-      <input placeholder="Search"></i>
-      <button><input id="searchbarbtn" type="image" src="./img/1001.jpg" alt=" Search"></button>
-    </div>
-    <div class="headernav">
-      <button id="uploadlogo" type="button" src="./img/uploadbtn.png"></button>
-    </div>
-    <div class="headernav" id="signinbtn"><button>Login</button></div>
-  </section>
+  <header>
+    <nav>
+      <div class="logo">
+        <i class="fas fa-bars"></i>
+        <img src="./img/youtubelogo.png" alt="youtube logo">
+      </div>
+      <div class="search-bar">
+        <input id="main-search-bar" type="search" placeholder="Search">
+        <button><i class="fas fa-search"></i></button>
+      </div>
+      <div class="icons">
+        <i class="fas fa-video"></i>
+        <i class="fas fa-th"></i>
+        <i class="fas fa-bell"></i>
+        <i class="fas fa-user-circle"></i>
+      </div>
+    </nav>
+
+  </header>
 
   <div class="body-column">
     <section id="theVideo">
-      <iframe src="https://www.youtube.com/embed/lJIrF4YjHfQ" frameborder="0"
+      <iframe width="100%" height="720" src="https://www.youtube.com/embed/lJIrF4YjHfQ" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
       </iframe>
