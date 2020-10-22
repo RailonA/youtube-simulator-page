@@ -17,35 +17,32 @@
 </head>
 
 
-<body>
+<body class="container-fluid">
 
-  <div class="alert alert-success" role="alert">
-    <strong>Congratulations!</strong>
-    <p>Bootstrap is now working on this page</p>
-  </div>
+  <header>
+    <nav class="row  header-nav ">
+      <ul class="header-nav-left">
+        <li id="buger-icon"><i class=" fas fa-bars"></i></li>
+        <li><img id="youtube-logo" src="./img/youtubelogo.png" alt="youtube logo"></li>
+      </ul>
 
-  <header class="selector-for-header-widget">
-    <nav>
-      <div class="logo">
-        <i class="fas fa-bars"></i>
-        <img src="./img/youtubelogo.png" alt="youtube logo">
-      </div>
-      <div class="search-bar">
+
+      <div class="header-nav-center">
         <input id="main-search-bar" type="search" placeholder="Search">
         <button><i class="fas fa-search"></i></button>
       </div>
-      <div class="icons">
-        <i class="fas fa-video"></i>
-        <i class="fas fa-th"></i>
-        <i class="fas fa-bell"></i>
-        <i class="fas fa-user-circle"></i>
+
+      <div class="icons" class="header-nav-right">
+        <i class="header-nav-right-icon fas fa-video"></i>
+        <i class="header-nav-right-icon fas fa-th"></i>
+        <i class="header-nav-right-icon fas fa-bell"></i>
+        <i class="header-nav-right-icon fas fa-user-circle"></i>
       </div>
     </nav>
-
   </header>
 
-  <div class="body-column">
-    <section id="theVideo">
+  <div>
+    <section>
       <iframe width="100%" height="720" src="https://www.youtube.com/embed/lJIrF4YjHfQ" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
@@ -59,22 +56,22 @@
           <div id="board1">
             <h1>Contributing to Open Source Part I: The Easy Way </h1>
 
-            <div id="infoplacement">
-              <div id="infodiv">
+            <div>
+              <div>
                 <div>
                   <img id="lionlogo" type="image" src="./img/lionlogo.jpg">
                 </div>
 
 
-                <div class="mainalign">
+                <div>
                   <h5>The Odin Project</h5>
 
-                  <div class="subalign">
+                  <div>
 
-                    <button class="subbtnalign"><img class="subimg" type="image" src="./img/play.png">
+                    <button><img class="subimg" type="image" src="./img/play.png">
                       <p>Subscribe</p>
                     </button>
-                    <div id="subnum">
+                    <div>
                       <p>799</p>
 
                     </div>
@@ -83,7 +80,7 @@
                 </div>
               </div>
 
-              <div id="views">
+              <div>
                 <h2>50,016 views</h2>
                 <div id="blueline"></div>
               </div>
@@ -101,19 +98,19 @@
             <section class="buttons-under-video">
               <div class="btn1">
                 <!-- MORE Button under video -->
-                <button class="buttons-under-vide buttonbtn" class="col-sm">
+                <button class="buttons-under-vide buttonbtn" class="icons" class="col-sm">
                   <i class="fas fa-plus">
                     <p>Add to</p>
                   </i>
                 </button>
                 <!-- SHARE Button under video -->
-                <button class="buttonbtn" class="col-sm">
+                <button class="buttonbtn" class="icons" class="col-sm">
                   <i class="fas fa-share">
                     <p>Share</p>
                   </i>
                 </button>
                 <!-- MORE Button under video -->
-                <button class="buttonbtn" class="col-sm">
+                <button class="buttonbtn" class="icons" class="col-sm">
                   <i class="fas fa-ellipsis-h">
                     <p>more</p>
                   </i>

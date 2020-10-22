@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -46,406 +46,71 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* HEADER NAVIGATION */
 
+.container-fluid{
+    width:100%;
+    background-color: red;
+}
 
-
-
-
-/* selector-for-header-widget */
-html {
-    font-family: sans-serif;
-    }
-
-header{
-
-    box-sizing: content-box;
-    margin-bottom: 20px;
-    padding: 10px 0;
+.header-nav{
+    height:20%;
     background-color: white;
-    box-shadow: 1px 0 1px #ddd;
-    width: 100%;;
-    }
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
+}
+/* LEFT SIDE OF NAV BAR */
 
-
-body {
-box-sizing: border-box;
-margin: 0;
-background-color: #f1f1f1;
-width:100%;
+.header-nav-left{
+    display: flex;
+    flex-direction: row;
+}
+#buger-icon{
+margin:0px;
+padding-top:15px;
+}
+#youtube-logo{
+    height:100%;
+    padding-left: 0px;
 }
 
-button:hover,
-a:hover,
-i:hover {
-cursor: pointer;
+.header-nav-center{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    padding-left:60px;
 }
+#main-search-bar{
+    display: flex;
+    width: 70%;
+    align-items: center;
 
-nav {
-padding-left: 30px;
-padding-right: 30px;
+}
+.header-nav-right{
 display: flex;
-justify-content: space-between;
+flex-direction: row;
+justify-content: space-evenly;
+
+
 }
-/* First div  */
-.selector-for-header-widget{
-width:100%;
-}
-.logo {
+
+#youtube-logo{
 margin-left: 10px;
 align-items: center;
 display: flex;
-width: 15%;
+width: 80px;
 height: 50px;
 }
 
-.logo i {
-font-size: 20px;
-color: #7f7f7f;
+.header-nav-right-icon{
+    margin:10px;
+    padding-top:9px;
 }
-
-.logo img {
-margin-left: 20px;
-width: 100px;
-height: 30px;
-}
-
-/* second div */
-.search-bar {
-display: flex;
-width: 60%;
-align-items: center;
-}
-#main-search-bar {
-width: 70%;
-height: 35px;
-border: solid 0.5px #ccc;
-outline: none;
-font-size: 15px;
-color: #ccc;
-/* margin-left: -60px; */
-}
-
-.search-bar button {
-width: 60px;
-height: 35px;
-border: solid 0.5px #ccc;
-border-left-style: none;
-outline: none;
-}
-
-.search-bar button .fas {
-color: #333;
-}
-
-/* Third  div */
-
-.icons {
-display: flex;
-width: 12%;
-justify-content: space-between;
-align-items: center;
-}
-
-.icons .fas {
-color: #7f7f7f;
-font-size: 20px;
-}
-
-.container {
-display: flex;
-width: 100%;
-}
-
-
-.video-section {
-padding-right: 10px;
-width: 1280px;
-}
-
-.headernav{
-margin-left: auto;
-margin-right: auto;
-}
-
-
-/* BREAKS THE BODY INTO TWO COLUMNS */
-
-.body-column{
-position: relative;
-display: flex;
-flex-direction: row;
-align-items: center;
-}
-/* YOUTUBE VIDEO PLACEMENT */
-iframe {
-width: 900px;
-height: 500px;
-padding: 20px 0px 0px 40px;
-display:flex;
-justify-content:space-around;
-align-items: center;
-
-}
-/* THE INFORMATION UNDER THE YOUTUBE VIDEO  */
-#infoplacement{
-display: flex;
-flex-direction: row;
-margin:0px;
-justify-content:space-between;
-
-}
-
-#infodiv{
-display: flex;
-flex-direction: row;
-margin:0px;
-}
-
-#lionlogo{
-height:70px;
-width:70px;
-display:flex;  
-align-self: flex-start;
-margin:0px;
-}
-.mainalign{
-display:flex;
-flex-direction: column;
-margin:0px;
-}
-.mainalign h5{
-margin:0px;
-padding-top:10px;
-
-}
-
-.subalign{
-display:flex;
-flex-direction: row;
-height:40px;
-margin:0px;
-padding-top:10px;
-}
-#subnum{
-height:22px;
-margin:0px;
-border: solid;
-border-width:1px ;
-border-color: lightslategray;
-}
-#subnum p{
-font-size: 15px;
-padding:3px;
-}
-
-.subalign p{
-margin:0px;
-}
-
-.subbtnalign{
-display:flex;
-flex-direction: row;
-height:60%;
-background-color: red;
-color: white;
-margin:0px;
-}
-.subbtnalign p {
-padding-left: 5px;
-padding-top: 2px;
-
-}
-
-.subalign p{
-margin:0px;
-}
-
-.subimg{
-height:100%;
-width:30px; 
-display:flex; 
-margin:0px; 
-}
-
-.views {
-display: flex;
-flex-direction: column;
-}
-
-.views h2 {
-margin-bottom: -15px;
-color: #666666;
-}
-
-
-#blueline {
-background-color: rgb(22, 122, 198);
-position: relative;
-top: 14px;
-right: 20px;
-height: 3px;
-width: 154px;
-}
-
-
-#board{
-display: flex;
-flex-direction: column;
-justify-content: center;
-margin-left: 40px;
-width: 900px;
-}
-
-#board1{
-background-color: white;
-margin-top:20px;
-display: flex;
-flex-direction: column; 
-height:auto;
-}    
-/* BOARDER ONE*/
-#board1 h1{
-margin:0px;
-padding:20px;
-}
-/* BOARDER TWO */
-#board2{
-background-color: white;
-margin-top:20px;
-padding:20px;
-}
-
-/* BOARDER THREE */
-#board3{
-    background-color: white;
-    margin-top:20px;
-    height:100px;
-    
-    }
-    
-/* SHOW MORE BUTTON*/
-    
-#showmorebtn{
-        display: flex;
-        flex-direction: row;
-        justify-content:space-around;
-        height:30px;
-        width:800px;
-
-    }
-#showmorebtn button{
-        width:750px;
-        background-color: Transparent;
-        border: none;
-        cursor:pointer;
-        overflow: hidden;
-        outline:none;
-    }
-#loadingview{
+nav {
+    padding-left: 30px;
+    padding-right: 30px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: Transparent;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-    padding-top: 40px;
-    padding-right: 60px;
-}
-/* LOADING IMAGE*/
-#loadinggif{
-    width: 20px;
-    height: 20px;
-
+    justify-content: space-between;
     }
-#Loading-p{
-    margin-left: 10px;
-}
-
-/* STARTS THE 2ND COLUMN ON THE RIGHT HAND SIDE OF THE VIDEO */
-
-#sideBar{
-float: right;
-display: flex;
-flex-direction: row;
-flex-shrink:2;
-width : 500px;
-padding: 10px;
-height:200px;
-
-}
-#image2{
-height: 200px;
-width: 300px;
-}
-
-.column{
-display: flex;
-flex-direction: column;
-background-color:white;
-margin-left:20px;
-margin-top:-420px;
-}
-
-
-#sideBartext{
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    margin-top: 10px;
-
-    }
-   
-    #sideBartext h4, p{
-        margin:0px;
-        
-    }
-
-    #sideBartext  p{
-        margin:5px;
-    }
-
-
-    h1 {
-        margin-left: 20px;
-    }
-    #pmargin{
-        margin-top: 5px;
-    }
-
-    .button{
-        height:50%;
-        display:flex;
-        flex-direction: row;
-        padding-right: 10px;
-    }
-    .buttonbtn{
-        display:flex;
-        flex-direction: row;
-        height:30px;
-        width:75px;
-        background-color: Transparent;
-        border: none;
-        cursor:pointer;
-        overflow: hidden;
-        outline:none;
-        margin: 5px;
-    }
-    .btn{
-            display:flex;
-            flex-direction: row;
-            justify-content:space-between;
-            padding:5px;
-        }
-    .btn1{
-        display:flex;
-        flex-direction: row;
-    } 
-    .btn2{
-        display:flex;
-        flex-direction: row;
-    }
-  
