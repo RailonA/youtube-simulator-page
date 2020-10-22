@@ -46,6 +46,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+button:hover,
+a:hover,
+i:hover {
+cursor: pointer;
+}
 /* HEADER NAVIGATION */
 
 .container-fluid{
@@ -130,20 +136,70 @@ iframe {
     width: 900px;
 }
 #board1 {
-
+    display: flex;
+    flex-direction: column;
     background-color: white;
     margin-top:10px;
 }
+#board1 h1{
+    display: flex;
+    flex-direction: column;  
+}
+
 #board1-s{
     display: flex;
     flex-direction: row;
-    background-color: yellow;
-    
+    justify-content: space-between;
+}
+#board1-s1{
+    display: flex;
+    flex-direction: row;    
 }
 #board1-s2{
     display: flex;
     flex-direction: column;
 }
+#board1-s3{
+    display: flex;
+    flex-direction: row;
+}
+
+#board1-s4{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+}
+.fa-youtube{
+color: white;
+}
+#lionlogo {
+    width: 80px;
+height: 50px;
+
+}
+#board1-button-grouping{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button-grouping{
+display:flex;
+background-color: Transparent;
+border: none;
+cursor:pointer;
+overflow: hidden;
+outline:none;
+margin: 5px;
+}
+.button-view{
+    display:flex;
+flex-direction: row;
+}
+#button-grouping-view{
+    display:flex;
+    flex-direction: row;
+}
+
 #board2 {
     background-color: white;
     margin-top:10px;
@@ -154,13 +210,7 @@ iframe {
     margin-top:10px;
 
 }
-#lionlogo {
-    width: 80px;
-height: 50px;
-
-}
-
-
+bord1-button-grouping
 /* sidebar Navigation */
 #sideBar{
     display: flex;
