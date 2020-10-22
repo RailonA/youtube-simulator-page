@@ -3,7 +3,7 @@
 # YouTube Webpage
 > Task is to clone YouTube’s video player page using web archive link: http://archive.today/Bss88 as a source page. The goal of this project was to focus on making the media elements show up. We worked on embedding the YouTube video player into the page so it actually plays
 
-![screenshot](./app_screenshot.png)
+![screenshot](./img/app_screenshot.png)
  
 ## Built With
 
