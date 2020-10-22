@@ -2,16 +2,29 @@
 <html lang="en">
 
 <head>
+  <!-- Required meta tags -->
+
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
   <link rel="stylesheet" href="mystyle.css">
-  <title>Document</title>
+  <title>YouTube_Video_Player_Page</title>
 </head>
+
 
 <body>
 
-  <header>
+  <div class="alert alert-success" role="alert">
+    <strong>Congratulations!</strong>
+    <p>Bootstrap is now working on this page</p>
+  </div>
+
+  <header class="selector-for-header-widget">
     <nav>
       <div class="logo">
         <i class="fas fa-bars"></i>
@@ -80,30 +93,43 @@
               <hr>
             </div>
 
-            <section class="btn">
+
+
+
+
+            <!-- BUTTONS UNDER VIDEO  -->
+            <section class="buttons-under-video">
               <div class="btn1">
-                <button class="buttonbtn">
-                  <img class="button" type="image" src="./img/plus.png">
-                  <p>Add to</p>
+                <!-- MORE Button under video -->
+                <button class="buttons-under-vide buttonbtn" class="col-sm">
+                  <i class="fas fa-plus">
+                    <p>Add to</p>
+                  </i>
                 </button>
-                <button class="buttonbtn">
-                  <img class="button" type="image" src="./img/share.png">
-                  <p>Share</p>
+                <!-- SHARE Button under video -->
+                <button class="buttonbtn" class="col-sm">
+                  <i class="fas fa-share">
+                    <p>Share</p>
+                  </i>
                 </button>
-                <button class="buttonbtn">
-                  <img class="button" type="image" src="./img/more.jpeg">
-                  <p>more</p>
+                <!-- MORE Button under video -->
+                <button class="buttonbtn" class="col-sm">
+                  <i class="fas fa-ellipsis-h">
+                    <p>more</p>
+                  </i>
                 </button>
               </div>
 
+
               <div class="btn2">
 
-                <button class="buttonbtn">
-                  <img class="button" type="image" src="./img/up.png">
+                <button class="buttonbtn" class="col-sm">
+                  <i class="fas fa-thumbs-up"></i>
                   <p>359</p>
                 </button>
-                <button class="buttonbtn">
-                  <img class="button" type="image" src="./img/down.png">
+                <button class="buttonbtn" class="col-sm">
+                  <i class="fas fa-thumbs-down"></i>
+
                   <p>14</p>
                 </button>
               </div>
@@ -199,6 +225,19 @@
     </aside>
 
   </div>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
