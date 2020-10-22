@@ -253,6 +253,51 @@ padding:20px;
 
 
 #board3{
+<<<<<<< HEAD
+    background-color: white;
+    margin-top:20px;
+    height:100px;
+    
+    }
+    
+    
+#showmorebtn{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        height:30px;
+        width:800px;
+
+    }
+
+#showmorebtn button{
+        width:750px;
+        background-color: Transparent;
+        border: none;
+        cursor:pointer;
+        overflow: hidden;
+        outline:none;
+    }
+#loadingview{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: Transparent;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    padding-top: 40px;
+    padding-right: 60px;
+}
+#loadinggif{
+    width: 20px;
+    height: 20px;
+
+    }
+#Loading-p{
+    margin-left: 10px;
+=======
 background-color: white;
 margin-top:20px;
 height:100px;
@@ -275,6 +320,7 @@ border: none;
 cursor:pointer;
 overflow: hidden;
 outline:none;
+>>>>>>> 4886935f3a81399c810f4f595625bbb60c83cdff
 }
 
 /* STARTS THE 2ND COLUMN ON THE RIGHT HAND SIDE OF THE VIDEO */
@@ -304,6 +350,65 @@ margin-top:-420px;
 
 
 #sideBartext{
+<<<<<<< HEAD
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    }
+   
+    #sideBartext h4, p{
+        margin:0px;
+        
+    }
+
+    #sideBartext  p{
+        margin:5px;
+    }
+
+
+    h1 {
+        margin-left: 20px;
+    }
+    #pmargin{
+        margin-top: 5px;
+    }
+
+    .button{
+        height:50%;
+        display:flex;
+        flex-direction: row;
+        padding-right: 10px;
+    }
+    .buttonbtn{
+        display:flex;
+        flex-direction: row;
+        height:30px;
+        width:75px;
+        background-color: Transparent;
+        border: none;
+        cursor:pointer;
+        overflow: hidden;
+        outline:none;
+        margin: 5px;
+    }
+    .btn{
+            display:flex;
+            flex-direction: row;
+            justify-content:space-between;
+            padding:5px;
+        }
+    .btn1{
+        display:flex;
+        flex-direction: row;
+    } 
+    .btn2{
+        display:flex;
+        flex-direction: row;
+    }
+  
+=======
 display: flex;
 flex-direction: column;
 margin-left: 10px;
@@ -358,3 +463,4 @@ flex-direction: row;
 display:flex;
 flex-direction: row;
 }
+>>>>>>> 4886935f3a81399c810f4f595625bbb60c83cdff
