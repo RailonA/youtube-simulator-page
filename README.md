@@ -1,30 +1,41 @@
-#Project Name
-Embedding Images and Video CHallange
-Task is to clone YouTube’s video player page using web archive link: http://archive.today/Bss88 as a source page.
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
+# YouTube Webpage
+> Task is to clone YouTube’s video player page using web archive link: http://archive.today/Bss88 as a source page. The goal of this project was to focus on making the media elements show up. We worked on embedding the YouTube video player into the page so it actually plays
 
-##Additional description about the project and its features.
-
-*Built With: Visual Studio 
-*Major languages: HTML and CSS
-
-##Live Demo
-http://github.com - automatic!
-[GitHub](https://railona.github.io/youtube-simulator-page/.)
+![screenshot](./app_screenshot.png)
  
+## Built With
+
+- HTML5
+- CSS
+- Font Awesome
+
+## Live Demo
+
+[Live Demo Link](https://railona.github.io/youtube-simulator-page/)
+
+👤 **Railon Acosta**
+
+- GitHub: [@railonA](https://github.com/RailonA)
 
 
+👤 **Sunil Devalla**
 
+- GitHub: [@DsunilK](https://github.com/DsunilK)
 
+## 🤝 Contributing
 
-**GitHub:** @railonA
-**Twitter:** @RailonAcosta
-**LinkedIn:** Railon Acosta
+Contributions, issues, and feature requests are welcome!
 
-**GitHub:** @DsunilK
-**Twitter:** @Sunil_Devalla
-**LinkedIn:** @sunil-kumar-87b5b11b6
+Feel free to check the [issues page](https://github.com/RailonA/youtube-simulator-page/issues).
 
+## Show your support
 
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
 
 
