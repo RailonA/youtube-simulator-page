@@ -50,7 +50,7 @@ table {
 
 .container-fluid{
     width:100%;
-    background-color: red;
+    background-color: rgb(202, 199, 199);
 }
 
 .header-nav{
@@ -114,3 +114,83 @@ nav {
     display: flex;
     justify-content: space-between;
     }
+/* Video Section */
+iframe {
+    width: 900px;
+    height: 550px;
+    margin: 10px 0px 0px 40px;
+
+
+}
+#board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+    width: 900px;
+}
+#board1 {
+
+    background-color: white;
+    margin-top:10px;
+}
+#board1-s{
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    
+}
+#board1-s2{
+    display: flex;
+    flex-direction: column;
+}
+#board2 {
+    background-color: white;
+    margin-top:10px;
+
+}
+#board3 {
+    background-color: white;
+    margin-top:10px;
+
+}
+#lionlogo {
+    width: 80px;
+height: 50px;
+
+}
+
+
+/* sidebar Navigation */
+#sideBar{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin: 10px;
+}
+#sidebar-column{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+
+}
+#columns{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#sidebar-image2{
+    height: 200px;
+width: 300px;
+}
+#sideBartext{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+#sidebartext-info p{
+    margin-top: 10px;
+}
