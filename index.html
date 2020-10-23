@@ -20,18 +20,18 @@
 <body class="container-fluid">
 
   <header>
-    <nav class="row  header-nav ">
-      <ul class="header-nav-left">
+    <nav class="row  header-nav " class="col-md-12">
+      <ul class="header-nav-left" class="col-md-4">
         <li id="buger-icon"><i class=" fas fa-bars"></i></li>
         <li><img id="youtube-logo" src="./img/youtubelogo.png" alt="youtube logo"></li>
       </ul>
       <!-- SEARCH BAR -->
-      <div class="header-nav-center">
+      <div class="header-nav-center" class="col-md-4">
         <input id="main-search-bar" type="search" placeholder="Search">
         <button><i class="fas fa-search"></i></button>
       </div>
 
-      <div class="icons" class="header-nav-right">
+      <div class="icons" class="header-nav-right" class="col-md-4">
         <i class="header-nav-right-icon fas fa-video"></i>
         <i class="header-nav-right-icon fas fa-th"></i>
         <i class="header-nav-right-icon fas fa-bell"></i>
@@ -53,7 +53,7 @@
         <div id="board">
 
           <div id="board1">
-            <h1>Contributing to Open Source Part I: The Easy Way </h1>
+            <h3>Contributing to Open Source Part I: The Easy Way </h3>
 
             <div id="board1-s">
               <div id="board1-s1">
@@ -70,7 +70,7 @@
                       <i class="fab fa-youtube"></i>
                       <p>Subscribe</p>
                     </button>
-                    <div>
+                    <div id="Subscribe-button-num">
                       <p>799</p>
                     </div>
                   </div>
@@ -95,24 +95,25 @@
 
             <!-- BUTTONS UNDER VIDEO  -->
             <section id="board1-button-grouping">
+
               <div id="button-grouping-view">
                 <!-- MORE Button under video -->
-                <button class="button-grouping" class="icons">
-                  <i class="fas fa-plus">
-                    <p>Add to</p>
-                  </i>
+                <button class="button" class="button-grouping" class="icons">
+                  <i class="fas fa-plus"></i>
+                  <p>Add to</p>
+
                 </button>
                 <!-- SHARE Button under video -->
-                <button class="button-grouping" class="icons">
-                  <i class="fas fa-share">
-                    <p>Share</p>
-                  </i>
+                <button class="button" class="button-grouping" class="icons">
+                  <i class="fas fa-share"> </i>
+                  <p>Share</p>
+
                 </button>
                 <!-- MORE Button under video -->
-                <button class="button-grouping" class="icons">
-                  <i class="fas fa-ellipsis-h">
-                    <p>more</p>
-                  </i>
+                <button class="button" class="button-grouping" class="icons">
+                  <i class="fas fa-ellipsis-h"> </i>
+                  <p>more</p>
+
                 </button>
               </div>
 
@@ -125,7 +126,6 @@
                 </button>
                 <button class="button-grouping">
                   <i class="fas fa-thumbs-down"></i>
-
                   <p>14</p>
                 </button>
               </div>
