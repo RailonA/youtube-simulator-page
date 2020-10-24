@@ -90,6 +90,7 @@ body{
 .header-nav-left{
     display: flex;
     flex-direction: row;
+    margin-left:3%;
 }
 #buger-icon{
 margin:0px;

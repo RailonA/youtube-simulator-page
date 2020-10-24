@@ -1,7 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # YouTube Webpage
-> Task is to clone YouTube’s video player page using web archive link: http://archive.today/Bss88 as a source page. The goal of this project was to focus on making the media elements show up. We worked on embedding the YouTube video player into the page so it actually plays
+> Task is to clone YouTube’s video player page using web archive link: http://archive.today/Bss88 as a source page.
+
+We made a clone of the youtube player page, it has a functional video, buttons, and interactive icons. The page works best on a 1366x768 resolution and using the firefox browser, assets might look out of place using other browsers or resolutions. It has mock suggestions showing video name and views, and a mock section for commentaries. The focus of this branch was to make everything fit in their right places, along with a functional youtube video player.
 
 ![screenshot](./img/app_screenshot.png)
  
