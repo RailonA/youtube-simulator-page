@@ -563,14 +563,31 @@ font-size: x-small;
         border-left:none;
 
         }
-        .sidebar-column{
-          width:100%;
-          border-right:none;
-          border-left:none;
-      }
-        .sidebar-column span{
-          line-height:107px;
-        }
-    
-      }
+  
        
+    
+}  
+@media screen and (max-width:100%) {
+#sideBar{
+    flex-direction:column;
+    display:inline-flex;
+    flex-wrap:wrap;
+    margin:0px;
+}
+
+#sidebar-image{
+    border-right:none;
+    border-left:none;
+    flex-wrap:wrap;
+
+}
+#sideBartext{
+    border-right:none;
+    border-left:none;
+    flex-wrap:wrap;
+
+}
+
+
+
+      }
