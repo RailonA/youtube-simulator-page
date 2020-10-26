@@ -178,6 +178,8 @@ iframe {
     padding-top: 50px;
     margin:0px;
     width:100%;
+    margin-left:10px;
+
 }
 .left-column{
 margin-right:10px;
@@ -633,14 +635,6 @@ height:20px;
 
       }
     
-/*     
-      @media (min-width: 200px) 
-      { 
-        #sideBartext  h6{ font-size: 12px; }
-        #sidebartext-info1{ font-size: 780px; }
-        #sidebartext-info2{ font-size: 10px; }
-
-      } */
       
       @media screen and (max-width: 992px) { 
         .sideBartext  h6{ font-size: 16px; }
