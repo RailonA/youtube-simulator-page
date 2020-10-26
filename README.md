@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # YouTube Webpage
@@ -41,3 +42,6 @@ Give a ⭐️ if you like this project!
 This project is [MIT](LICENSE) licensed.
 
 
+=======
+# youtube-simulator-page
+>>>>>>> origin
