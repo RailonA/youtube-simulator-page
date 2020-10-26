@@ -7,14 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    crossorigin="makes page responsive">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" crossorigin="icons">
   <link rel="stylesheet" href="mystyle.css">
   <title>YouTube_Video_Player_Page</title>
 </head>
@@ -29,15 +25,15 @@
       <nav class=" header-nav " class="col-sm-12">
         <ul class="header-nav-left">
 
-          <li id="buger-icon"><i class=" fas fa-bars"></i></li>
+          <li class="buger-icon"><i class=" fas fa-bars"></i></li>
           <li>
-            <a href="https://www.youtube.com/"><img id="youtube-logo" alt="img of youtube logo"
+            <a href="https://www.youtube.com/"><img class="youtube-logo" alt="img of youtube logo"
                 src="./File/img/youtube_logo.png " alt="youtube logo">
             </a></li>
         </ul>
         <!-- SEARCH BAR -->
         <div class="header-nav-center">
-          <input id="main-search-bar" type="search" placeholder="Search">
+          <input class="main-search-bar" type="search" placeholder="Search">
           <button><i class="fas fa-search"></i></button>
         </div>
 
@@ -50,7 +46,7 @@
       </nav>
     </header>
 
-    <div id="columns" class="container-fluid flex-direction ">
+    <div class="columns" class="container-fluid flex-direction ">
 
       <section class="left-column" class="col-sm-12  col-md-8 col-lg-8">
         <iframe class=" box-shadow" src="https://www.youtube.com/embed/lJIrF4YjHfQ" frameborder="0"
@@ -59,29 +55,29 @@
         </iframe>
 
 
-        <articlle>
+        <article>
 
-          <div id="board">
+          <div class="board">
 
-            <div id="board1" class=" box-shadow">
+            <div class="board1" class=" box-shadow">
               <h4>Contributing to Open Source Part I: The Easy Way </h4>
 
-              <div id="board1-s">
-                <div id="board1-s1">
+              <div class="board1-s">
+                <div class="board1-s1">
                   <div>
-                    <img id="lionlogo" alt="lion logo" type="image" src="./File/img/lionlogo.jpg">
+                    <img class="lionlogo" alt="lion logo" type="image" src="./File/img/lionlogo.jpg">
                   </div>
 
 
-                  <div id="board1-s2">
+                  <div class="board1-s2">
                     <h5>The Odin Project</h5>
 
-                    <div id="board1-s3">
-                      <button id="board1-s4">
+                    <div class="board1-s3">
+                      <button class="board1-s4">
                         <i class="fab fa-youtube"></i>
                         <p>Subscribe</p>
                       </button>
-                      <div id="Subscribe-button-num">
+                      <div class="Subscribe-button-num">
                         <p>799</p>
                       </div>
                     </div>
@@ -89,14 +85,14 @@
                   </div>
                 </div>
 
-                <div id="board1-views">
+                <div class="board1-views">
                   <h3>50,016 views</h3>
-                  <div id="blueline"></div>
+                  <div class="blueline"></div>
                 </div>
 
               </div>
 
-              <div id="hr-div">
+              <div class="hr-div">
                 <hr>
               </div>
 
@@ -105,9 +101,9 @@
 
 
               <!-- BUTTONS UNDER VIDEO  -->
-              <section id="board1-button-grouping">
+              <section class="board1-button-grouping">
 
-                <div id="button-grouping-view">
+                <div class="button-grouping-view">
                   <!-- MORE Button under video -->
                   <button class="button" class="button-grouping" class="icons">
                     <i class="fas fa-plus"></i>
@@ -129,7 +125,7 @@
                 </div>
 
 
-                <div id="button-grouping-view">
+                <div class="button-grouping-view">
 
                   <button class="button" class="button-grouping">
                     <i class="fas fa-thumbs-up"></i>
@@ -148,8 +144,8 @@
             </div>
 
 
-            <div id="board2" class=" box-shadow">
-              <div id="board2-nav">
+            <div class="board2" class=" box-shadow">
+              <div class="board2-nav">
                 <h3>Published on Feb 27, 2014</h3>
                 <p>How do you contribute to open source? In this video, I'll describe the easiest way to make
                   a simple
@@ -171,13 +167,13 @@
                 <hr>
               </div>
 
-              <div id="bord2-more-button">
+              <div class="bord2-more-button">
                 <button>Show More</button>
               </div>
 
             </div>
 
-            <div id="board3" class=" box-shadow">
+            <div class="board3" class=" box-shadow">
               <div><img type="gif" alt="downloading simble" src="./File/img/loading2.gif">
                 <p>Loading...</p>
               </div>
@@ -185,19 +181,19 @@
           </div>
 
 
-          </article>
+        </article>
       </section>
 
-      <aside id=" sidebar-column" class=" box-shadow col-sm-12 col-md-12 col-lg-4">
+      <aside class=" sidebar-column" class=" box-shadow col-sm-12 col-md-12 col-lg-4">
 
-        <div id="sidebar-div">
+        <div class="sidebar-div">
           <ul>
-            <li id="sidebar-li">Up Next</li>
+            <li class="sidebar-li">Up Next</li>
           </ul>
           <ul class="sidebar-ul2">
-            <li id=" sidebar-li2">AutoPlay</li>
-            <li id="sidebar-li2"><i class="fas fa-info-circle"></i></li>
-            <label id="sidebar-li2" class="switch">
+            <li class=" sidebar-li2">AutoPlay</li>
+            <li class="sidebar-li2"><i class="fas fa-info-circle"></i></li>
+            <label class="switch">
               <input type="checkbox">
               <span class="slider round"></span>
             </label>
@@ -206,113 +202,113 @@
 
 
 
-        <section id="sideBar">
+        <section class="sideBar">
 
-          <div id="sidebar-image">
+          <div class="sidebar-image">
             <img src="./File/img/animal.jpg" alt="side bar image">
           </div>
 
-          <div id="sideBartext">
+          <div class="sideBartext">
             <h6>Contributing to Open Source Part II: The Real Way</h6>
-            <div id="sidebartext-info">
-              <p id="sidebartext-info1">The Odin Project</p>
-              <p id="sidebartext-info2">29,985 views</p>
+            <div class="sidebartext-info">
+              <p class="sidebartext-info1">The Odin Project</p>
+              <p class="sidebartext-info2">29,985 views</p>
             </div>
           </div>
 
         </section>
 
-        <section id="sideBar">
-          <div id="sidebar-image">
+        <section class="sideBar">
+          <div class="sidebar-image">
             <img src="./File/img/sidebar-lion.jpeg" alt="side bar image">
           </div>
-          <div id="sideBartext">
+          <div class="sideBartext">
             <h6>How to Get a Job at the Big 4- Amazon, Facebook, Google & Microsft' by</h6>
-            <div id="sidebartext-info">
-              <p id="sidebartext-info1">imtiana</p>
-              <p id="sidebartext-info2">9,81,543 views</p>
+            <div class="sidebartext-info">
+              <p class="sidebartext-info1">imtiana</p>
+              <p class="sidebartext-info2">9,81,543 views</p>
             </div>
           </div>
         </section>
 
-        <section id="sideBar">
-          <div id="sidebar-image">
+        <section class="sideBar">
+          <div class="sidebar-image">
             <img src=" ./File/img/sidebar3.jpeg" alt="side bar image">
           </div>
-          <div id="sideBartext">
+          <div class="sideBartext">
             <h6>Programming in Visual Basic . Net How to Connect Access Database to</h6>
-            <div id="sidebartext-info">
-              <p id="sidebartext-info1">iBasskung</p>
-              <p id="sidebartext-info2">1.1M views</p>
+            <div class="sidebartext-info">
+              <p class="sidebartext-info1">iBasskung</p>
+              <p class="sidebartext-info2">1.1M views</p>
             </div>
           </div>
         </section>
 
 
-        <section id="sideBar">
-          <div id="sidebar-image">
+        <section class="sideBar">
+          <div class="sidebar-image">
             <img src="./File/img/sidebarimg4.jpeg" alt="side bar image">
           </div>
-          <div id="sideBartext">
+          <div class="sideBartext">
             <h6>Programming in Visual Basic . Net How to Connect Access Database to</h6>
-            <div id="sidebartext-info">
-              <p id="sidebartext-info1">iBasskung</p>
-              <p id="sidebartext-info2">1,61,336 views</p>
+            <div class="sidebartext-info">
+              <p class="sidebartext-info1">iBasskung</p>
+              <p class="sidebartext-info2">1,61,336 views</p>
             </div>
           </div>
         </section>
 
 
-        <section id="sideBar">
-          <div id="sidebar-image">
+        <section class="sideBar">
+          <div class="sidebar-image">
             <img src="./File/img/sidebarimg5.jpeg" alt="side bar image">
           </div>
-          <div id="sideBartext">
+          <div class="sideBartext">
             <h6>Programming in Visual Basic . Net How to Connect Access Database to</h6>
-            <div id="sidebartext-info">
-              <p id="sidebartext-info1">iBasskung</p>
-              <p id="sidebartext-info2">2.8M views</p>
+            <div class="sidebartext-info">
+              <p class="sidebartext-info1">iBasskung</p>
+              <p class="sidebartext-info2">2.8M views</p>
             </div>
           </div>
         </section>
 
 
-        <section id="sideBar" class="flexFont container">
-          <div id="sidebar-image">
+        <section class="sideBar" class="flexFont container">
+          <div class="sidebar-image">
             <img src="./File/img/sidebarimg6.jpeg" alt="side bar image">
           </div>
-          <div id="sideBartext">
+          <div class="sideBartext">
             <h6>Programming in Visual Basic . Net How to Connect Access Database to</h6>
-            <div id="sidebartext-info">
-              <p id="sidebartext-info1">iBasskung</p>
-              <p id="sidebartext-info2">98,345 views</p>
+            <div class="sidebartext-info">
+              <p class="sidebartext-info1">iBasskung</p>
+              <p class="sidebartext-info2">98,345 views</p>
             </div>
           </div>
         </section>
 
 
-        <section id="sideBar">
-          <div id="sidebar-image">
+        <section class="sideBar">
+          <div class="sidebar-image">
             <img src="./File/img/sidebarimg7.jpeg" alt="side bar image">
           </div>
-          <div id="sideBartext">
+          <div class="sideBartext">
             <h6>Programming in Visual Basic . Net How to Connect Access Database to</h6>
-            <div id="sidebartext-info">
-              <p id="sidebartext-info1">iBasskung</p>
-              <p id="sidebartext-info2">260,333 views</p>
+            <div class="sidebartext-info">
+              <p class="sidebartext-info1">iBasskung</p>
+              <p class="sidebartext-info2">260,333 views</p>
             </div>
           </div>
         </section>
 
-        <section id="sideBar">
-          <div id="sidebar-image">
+        <section class="sideBar">
+          <div class="sidebar-image">
             <img src="./File/img/sidebarimg8.jpeg" alt="side bar image">
           </div>
-          <div id="sideBartext">
+          <div class="sideBartext">
             <h6>Programming in Visual Basic . Net How to Connect Access Database to</h6>
-            <div id="sidebartext-info">
-              <p id="sidebartext-info1">iBasskung</p>
-              <p id="sidebartext-info2">260,333 views</p>
+            <div class="sidebartext-info">
+              <p class="sidebartext-info1">iBasskung</p>
+              <p class="sidebartext-info2">260,333 views</p>
             </div>
           </div>
         </section>
@@ -329,7 +325,9 @@
   </section>
 
 
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>

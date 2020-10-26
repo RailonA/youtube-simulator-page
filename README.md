@@ -20,11 +20,15 @@ We made a clone of the youtube player page, it has a functional video, buttons, 
 👤 **Railon Acosta**
 
 - GitHub: [@railonA](https://github.com/RailonA)
+- Linkedin: [@railonAcosta](https://www.linkedin.com/in/railon-acosta-81265180/)
+- Twiter: [@railonAcosta](https://twitter.com/RailonAcosta)
 
 
 👤 **Sunil Devalla**
 
 - GitHub: [@DsunilK](https://github.com/DsunilK)
+- Linkedin: [@DsunilK](https://www.linkedin.com/in/dsunilk/)
+- Twiter: [@DsunilK](https://twitter.com/Sunil_Devalla)
 
 ## 🤝 Contributing
 
